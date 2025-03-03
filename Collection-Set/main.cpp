@@ -1,25 +1,104 @@
 #include <iostream>
+#include "setList.h"
+#include "setArr.h"
 
-// TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-int main() {
-    // TIP Press <shortcut actionId="RenameElement"/> when your caret is at the
-    // <b>lang</b> variable name to see how CLion can help you rename it.
-    auto lang = "C++";
-    std::cout << "Hello and welcome to " << lang << "!\n";
+int setList::getSize() {
+    return setList::vec.size();
+}
 
-    for (int i = 1; i <= 5; i++) {
-        // TIP Press <shortcut actionId="Debug"/> to start debugging your code.
-        // We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/>
-        // breakpoint for you, but you can always add more by pressing
-        // <shortcut actionId="ToggleLineBreakpoint"/>.
-        std::cout << "i = " << i << std::endl;
+void setList::printSet() {
+    for (int i  =0; i< setList::vec.size(); i++) {
+        std::cout << setList::vec[i] << " ";
     }
+}
+
+void setList::insert(int x) {
+vec.push_back(x);
+}
+
+void setList::withdraw(int x) {
+    for (int i = 0; i < vec.size(); i++) {
+        if (vec[i] == x) {
+            vec.erase(vec.begin() + i);
+        }
+    }
+}
+
+bool setList::isInSet(int x) {
+    for (int i = 0; i < vec.size(); i++) {
+        if (vec[i] == x) {
+            return true;
+        }
+    }
+    return false;
+}
+
+setList setList::operator+(setList& obj) {
+
+    for (int i = 0; i < setList::vec.size(); i++) {
+        if (obj.isInSet(vec[i])) {
+            obj.insert(vec[i]);
+        }
+    }
+    return obj;
+}
+
+setList setList::operator-(setList& obj) {
+
+    for (int i = 0; i < setList::vec.size(); i++) {
+        if (obj.isInSet(vec[i])) {
+            obj.withdraw(vec[i]);
+        }
+    }
+    return obj;
+}
+
+setList setList::operator*(setList& obj) {
+
+    return obj;
+}
+bool setList::operator==(setList& obj) {
+    if (obj.getSize() != getSize()) {
+        return false;
+    }
+    for (int i = 0; i < setList::vec.size(); i++) {
+        if (!obj.isInSet(vec[i])) {
+            return false;
+        }
+    }
+    return true;
+}
+bool setList::operator<=(setList& obj) {
+
+    return true;
+}
+//set Arr
+
+setArr::setArr() {
+
+}
+void setArr::insert(int x) {
+
+}
+
+void setArr::withdraw(int x) {
+
+}
+bool setArr::isInSet(int i) {
+
+}
+int setArr::getSize() {
+
+}
+void setArr::clearSet() {
+
+}
+void setArr::printSet() {
+
+}
+int main() {
+
 
     return 0;
 }
 
-// TIP See CLion help at <a
-// href="https://www.jetbrains.com/help/clion/">jetbrains.com/help/clion/</a>.
-//  Also, you can try interactive lessons for CLion by selecting
-//  'Help | Learn IDE Features' from the main menu.
