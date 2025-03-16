@@ -18,6 +18,8 @@ public:
     setList operator-(setList& obj);
     bool operator==(setList& obj);
     bool operator<=(setList& obj);
+    bool operator>=(setList& obj);
+    void clearSet();
 
 };
 

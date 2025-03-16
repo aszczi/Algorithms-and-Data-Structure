@@ -19,5 +19,6 @@ public:
     setArr operator-(setArr& object);
     bool operator==(setArr& object);
     bool operator <= (setArr& object);
+    bool operator >= (setArr& object);
 };
 
