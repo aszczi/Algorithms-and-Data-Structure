@@ -1,0 +1,5 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/PriorityQueue.dir/main.cpp.obj: dyndep
+
+build CMakeFiles/PriorityQueue.dir/KolejkaPriorytetowa.cpp.obj: dyndep
+

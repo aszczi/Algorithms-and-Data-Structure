@@ -1,0 +1,11 @@
+{
+"rules": [
+{
+"primary-output": "CMakeFiles\\PriorityQueue.dir\\KolejkaPriorytetowa.cpp.obj",
+"requires": [
+]
+}
+],
+"version": 0,
+"revision": 0
+}
