@@ -1,0 +1,7 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/BFS_and_DFS.dir/main.cpp.obj: dyndep
+
+build CMakeFiles/BFS_and_DFS.dir/BFS.cpp.obj: dyndep
+
+build CMakeFiles/BFS_and_DFS.dir/DFS.cpp.obj: dyndep
+
