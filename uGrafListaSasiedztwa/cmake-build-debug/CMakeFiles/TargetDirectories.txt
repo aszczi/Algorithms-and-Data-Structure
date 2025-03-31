@@ -1,0 +1,3 @@
+C:/Users/asias/CLionProjects/uGrafListaSasiedztwa/cmake-build-debug/CMakeFiles/uGrafListaSasiedztwa.dir
+C:/Users/asias/CLionProjects/uGrafListaSasiedztwa/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/asias/CLionProjects/uGrafListaSasiedztwa/cmake-build-debug/CMakeFiles/rebuild_cache.dir

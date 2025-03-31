@@ -1,0 +1,7 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/uGrafListaSasiedztwa.dir/main.cpp.obj: dyndep
+
+build CMakeFiles/uGrafListaSasiedztwa.dir/Graf.cpp.obj: dyndep
+
+build CMakeFiles/uGrafListaSasiedztwa.dir/edge.cpp.obj: dyndep
+
