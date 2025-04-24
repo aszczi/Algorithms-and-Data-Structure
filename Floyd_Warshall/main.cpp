@@ -1,5 +1,7 @@
 #include "Graf.h"
 
+
+
 void test1()
 {
     Graf* G = new Graf();
@@ -20,22 +22,19 @@ void test1()
 void test2()
 {
     Graf* G = new Graf();
-    G->readFromFile("C:\\Users\\asias\\CLionProjects\\Floyd_Warshall\\grafZadanie.txt");
-  //  G->printNeighbourIndices(1);
-
-   // std::cout << G->getNumberOfEdges();
+   // G->readFromFile("C:\\Users\\asias\\Downloads\\GrafSmall.txt");
+    G->readFromFile("C:\\Users\\asias\\CLionProjects\\uGrafMacierzSasiedztwa\\grafZadanie.txt");
+    G->printNeighbourIndices(1);
+    std::cout << G->getNumberOfEdges();
     std::cout<<std::endl;
     G->print();
-
-//    std::cout<< "\npo Floydzie:"<<std::endl;
-  //  G->FloydWarshallMatrix();
+    G->FloydWarshallMatrix();
 }
 
 int main()
 {
     test1();
     test2();
-
 }
 
 

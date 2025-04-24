@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: Floyd_Warshall
+# Project: uGrafMacierzSasiedztwa
 # Configurations: Debug
 # =============================================================================
 
@@ -39,87 +39,87 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/asias/CLionProjects/Floyd_Warshall/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/asias/CLionProjects/uGrafMacierzSasiedztwa/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target Floyd_Warshall
+# Object build statements for EXECUTABLE target uGrafMacierzSasiedztwa
 
 
 #############################################
-# Order-only phony target for Floyd_Warshall
+# Order-only phony target for uGrafMacierzSasiedztwa
 
-build cmake_object_order_depends_target_Floyd_Warshall: phony || .
+build cmake_object_order_depends_target_uGrafMacierzSasiedztwa: phony || .
 
-build CMakeFiles/Floyd_Warshall.dir/main.cpp.obj.ddi: CXX_SCAN__Floyd_Warshall_Debug C$:/Users/asias/CLionProjects/Floyd_Warshall/main.cpp || cmake_object_order_depends_target_Floyd_Warshall
-  DEP_FILE = CMakeFiles\Floyd_Warshall.dir\main.cpp.obj.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\Floyd_Warshall.dir\main.cpp.obj.ddi
+build CMakeFiles/uGrafMacierzSasiedztwa.dir/main.cpp.obj.ddi: CXX_SCAN__uGrafMacierzSasiedztwa_Debug C$:/Users/asias/CLionProjects/uGrafMacierzSasiedztwa/main.cpp || cmake_object_order_depends_target_uGrafMacierzSasiedztwa
+  DEP_FILE = CMakeFiles\uGrafMacierzSasiedztwa.dir\main.cpp.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\uGrafMacierzSasiedztwa.dir\main.cpp.obj.ddi
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJ_FILE = CMakeFiles\Floyd_Warshall.dir\main.cpp.obj
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles\Floyd_Warshall.dir\main.cpp.obj.ddi.i
+  OBJ_FILE = CMakeFiles\uGrafMacierzSasiedztwa.dir\main.cpp.obj
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles\uGrafMacierzSasiedztwa.dir\main.cpp.obj.ddi.i
 
-build CMakeFiles/Floyd_Warshall.dir/main.cpp.obj: CXX_COMPILER__Floyd_Warshall_scanned_Debug C$:/Users/asias/CLionProjects/Floyd_Warshall/main.cpp | CMakeFiles/Floyd_Warshall.dir/main.cpp.obj.modmap || cmake_object_order_depends_target_Floyd_Warshall CMakeFiles/Floyd_Warshall.dir/CXX.dd
-  DEP_FILE = CMakeFiles\Floyd_Warshall.dir\main.cpp.obj.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles\Floyd_Warshall.dir\main.cpp.obj.modmap
+build CMakeFiles/uGrafMacierzSasiedztwa.dir/main.cpp.obj: CXX_COMPILER__uGrafMacierzSasiedztwa_scanned_Debug C$:/Users/asias/CLionProjects/uGrafMacierzSasiedztwa/main.cpp | CMakeFiles/uGrafMacierzSasiedztwa.dir/main.cpp.obj.modmap || cmake_object_order_depends_target_uGrafMacierzSasiedztwa CMakeFiles/uGrafMacierzSasiedztwa.dir/CXX.dd
+  DEP_FILE = CMakeFiles\uGrafMacierzSasiedztwa.dir\main.cpp.obj.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles\uGrafMacierzSasiedztwa.dir\main.cpp.obj.modmap
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Floyd_Warshall.dir
-  OBJECT_FILE_DIR = CMakeFiles\Floyd_Warshall.dir
-  dyndep = CMakeFiles/Floyd_Warshall.dir/CXX.dd
+  OBJECT_DIR = CMakeFiles\uGrafMacierzSasiedztwa.dir
+  OBJECT_FILE_DIR = CMakeFiles\uGrafMacierzSasiedztwa.dir
+  dyndep = CMakeFiles/uGrafMacierzSasiedztwa.dir/CXX.dd
 
-build CMakeFiles/Floyd_Warshall.dir/Graf.cpp.obj.ddi: CXX_SCAN__Floyd_Warshall_Debug C$:/Users/asias/CLionProjects/Floyd_Warshall/Graf.cpp || cmake_object_order_depends_target_Floyd_Warshall
-  DEP_FILE = CMakeFiles\Floyd_Warshall.dir\Graf.cpp.obj.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\Floyd_Warshall.dir\Graf.cpp.obj.ddi
+build CMakeFiles/uGrafMacierzSasiedztwa.dir/Graf.cpp.obj.ddi: CXX_SCAN__uGrafMacierzSasiedztwa_Debug C$:/Users/asias/CLionProjects/uGrafMacierzSasiedztwa/Graf.cpp || cmake_object_order_depends_target_uGrafMacierzSasiedztwa
+  DEP_FILE = CMakeFiles\uGrafMacierzSasiedztwa.dir\Graf.cpp.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\uGrafMacierzSasiedztwa.dir\Graf.cpp.obj.ddi
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJ_FILE = CMakeFiles\Floyd_Warshall.dir\Graf.cpp.obj
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles\Floyd_Warshall.dir\Graf.cpp.obj.ddi.i
+  OBJ_FILE = CMakeFiles\uGrafMacierzSasiedztwa.dir\Graf.cpp.obj
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles\uGrafMacierzSasiedztwa.dir\Graf.cpp.obj.ddi.i
 
-build CMakeFiles/Floyd_Warshall.dir/Graf.cpp.obj: CXX_COMPILER__Floyd_Warshall_scanned_Debug C$:/Users/asias/CLionProjects/Floyd_Warshall/Graf.cpp | CMakeFiles/Floyd_Warshall.dir/Graf.cpp.obj.modmap || cmake_object_order_depends_target_Floyd_Warshall CMakeFiles/Floyd_Warshall.dir/CXX.dd
-  DEP_FILE = CMakeFiles\Floyd_Warshall.dir\Graf.cpp.obj.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles\Floyd_Warshall.dir\Graf.cpp.obj.modmap
+build CMakeFiles/uGrafMacierzSasiedztwa.dir/Graf.cpp.obj: CXX_COMPILER__uGrafMacierzSasiedztwa_scanned_Debug C$:/Users/asias/CLionProjects/uGrafMacierzSasiedztwa/Graf.cpp | CMakeFiles/uGrafMacierzSasiedztwa.dir/Graf.cpp.obj.modmap || cmake_object_order_depends_target_uGrafMacierzSasiedztwa CMakeFiles/uGrafMacierzSasiedztwa.dir/CXX.dd
+  DEP_FILE = CMakeFiles\uGrafMacierzSasiedztwa.dir\Graf.cpp.obj.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles\uGrafMacierzSasiedztwa.dir\Graf.cpp.obj.modmap
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Floyd_Warshall.dir
-  OBJECT_FILE_DIR = CMakeFiles\Floyd_Warshall.dir
-  dyndep = CMakeFiles/Floyd_Warshall.dir/CXX.dd
+  OBJECT_DIR = CMakeFiles\uGrafMacierzSasiedztwa.dir
+  OBJECT_FILE_DIR = CMakeFiles\uGrafMacierzSasiedztwa.dir
+  dyndep = CMakeFiles/uGrafMacierzSasiedztwa.dir/CXX.dd
 
-build CMakeFiles/Floyd_Warshall.dir/edge.cpp.obj.ddi: CXX_SCAN__Floyd_Warshall_Debug C$:/Users/asias/CLionProjects/Floyd_Warshall/edge.cpp || cmake_object_order_depends_target_Floyd_Warshall
-  DEP_FILE = CMakeFiles\Floyd_Warshall.dir\edge.cpp.obj.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\Floyd_Warshall.dir\edge.cpp.obj.ddi
+build CMakeFiles/uGrafMacierzSasiedztwa.dir/edge.cpp.obj.ddi: CXX_SCAN__uGrafMacierzSasiedztwa_Debug C$:/Users/asias/CLionProjects/uGrafMacierzSasiedztwa/edge.cpp || cmake_object_order_depends_target_uGrafMacierzSasiedztwa
+  DEP_FILE = CMakeFiles\uGrafMacierzSasiedztwa.dir\edge.cpp.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\uGrafMacierzSasiedztwa.dir\edge.cpp.obj.ddi
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJ_FILE = CMakeFiles\Floyd_Warshall.dir\edge.cpp.obj
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles\Floyd_Warshall.dir\edge.cpp.obj.ddi.i
+  OBJ_FILE = CMakeFiles\uGrafMacierzSasiedztwa.dir\edge.cpp.obj
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles\uGrafMacierzSasiedztwa.dir\edge.cpp.obj.ddi.i
 
-build CMakeFiles/Floyd_Warshall.dir/edge.cpp.obj: CXX_COMPILER__Floyd_Warshall_scanned_Debug C$:/Users/asias/CLionProjects/Floyd_Warshall/edge.cpp | CMakeFiles/Floyd_Warshall.dir/edge.cpp.obj.modmap || cmake_object_order_depends_target_Floyd_Warshall CMakeFiles/Floyd_Warshall.dir/CXX.dd
-  DEP_FILE = CMakeFiles\Floyd_Warshall.dir\edge.cpp.obj.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles\Floyd_Warshall.dir\edge.cpp.obj.modmap
+build CMakeFiles/uGrafMacierzSasiedztwa.dir/edge.cpp.obj: CXX_COMPILER__uGrafMacierzSasiedztwa_scanned_Debug C$:/Users/asias/CLionProjects/uGrafMacierzSasiedztwa/edge.cpp | CMakeFiles/uGrafMacierzSasiedztwa.dir/edge.cpp.obj.modmap || cmake_object_order_depends_target_uGrafMacierzSasiedztwa CMakeFiles/uGrafMacierzSasiedztwa.dir/CXX.dd
+  DEP_FILE = CMakeFiles\uGrafMacierzSasiedztwa.dir\edge.cpp.obj.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles\uGrafMacierzSasiedztwa.dir\edge.cpp.obj.modmap
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Floyd_Warshall.dir
-  OBJECT_FILE_DIR = CMakeFiles\Floyd_Warshall.dir
-  dyndep = CMakeFiles/Floyd_Warshall.dir/CXX.dd
+  OBJECT_DIR = CMakeFiles\uGrafMacierzSasiedztwa.dir
+  OBJECT_FILE_DIR = CMakeFiles\uGrafMacierzSasiedztwa.dir
+  dyndep = CMakeFiles/uGrafMacierzSasiedztwa.dir/CXX.dd
 
-build CMakeFiles/Floyd_Warshall.dir/CXX.dd | C$:/Users/asias/CLionProjects/Floyd_Warshall/cmake-build-debug/CMakeFiles/Floyd_Warshall.dir/CXXModules.json CMakeFiles/Floyd_Warshall.dir/main.cpp.obj.modmap CMakeFiles/Floyd_Warshall.dir/Graf.cpp.obj.modmap CMakeFiles/Floyd_Warshall.dir/edge.cpp.obj.modmap: CXX_DYNDEP__Floyd_Warshall_Debug CMakeFiles/Floyd_Warshall.dir/main.cpp.obj.ddi CMakeFiles/Floyd_Warshall.dir/Graf.cpp.obj.ddi CMakeFiles/Floyd_Warshall.dir/edge.cpp.obj.ddi | C$:/Users/asias/CLionProjects/Floyd_Warshall/cmake-build-debug/CMakeFiles/Floyd_Warshall.dir/CXXDependInfo.json
+build CMakeFiles/uGrafMacierzSasiedztwa.dir/CXX.dd | C$:/Users/asias/CLionProjects/uGrafMacierzSasiedztwa/cmake-build-debug/CMakeFiles/uGrafMacierzSasiedztwa.dir/CXXModules.json CMakeFiles/uGrafMacierzSasiedztwa.dir/main.cpp.obj.modmap CMakeFiles/uGrafMacierzSasiedztwa.dir/Graf.cpp.obj.modmap CMakeFiles/uGrafMacierzSasiedztwa.dir/edge.cpp.obj.modmap: CXX_DYNDEP__uGrafMacierzSasiedztwa_Debug CMakeFiles/uGrafMacierzSasiedztwa.dir/main.cpp.obj.ddi CMakeFiles/uGrafMacierzSasiedztwa.dir/Graf.cpp.obj.ddi CMakeFiles/uGrafMacierzSasiedztwa.dir/edge.cpp.obj.ddi | C$:/Users/asias/CLionProjects/uGrafMacierzSasiedztwa/cmake-build-debug/CMakeFiles/uGrafMacierzSasiedztwa.dir/CXXDependInfo.json
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Floyd_Warshall
+# Link build statements for EXECUTABLE target uGrafMacierzSasiedztwa
 
 
 #############################################
-# Link the executable Floyd_Warshall.exe
+# Link the executable uGrafMacierzSasiedztwa.exe
 
-build Floyd_Warshall.exe: CXX_EXECUTABLE_LINKER__Floyd_Warshall_Debug CMakeFiles/Floyd_Warshall.dir/main.cpp.obj CMakeFiles/Floyd_Warshall.dir/Graf.cpp.obj CMakeFiles/Floyd_Warshall.dir/edge.cpp.obj
+build uGrafMacierzSasiedztwa.exe: CXX_EXECUTABLE_LINKER__uGrafMacierzSasiedztwa_Debug CMakeFiles/uGrafMacierzSasiedztwa.dir/main.cpp.obj CMakeFiles/uGrafMacierzSasiedztwa.dir/Graf.cpp.obj CMakeFiles/uGrafMacierzSasiedztwa.dir/edge.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Floyd_Warshall.dir
+  OBJECT_DIR = CMakeFiles\uGrafMacierzSasiedztwa.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Floyd_Warshall.exe
-  TARGET_IMPLIB = libFloyd_Warshall.dll.a
-  TARGET_PDB = Floyd_Warshall.exe.dbg
+  TARGET_FILE = uGrafMacierzSasiedztwa.exe
+  TARGET_IMPLIB = libuGrafMacierzSasiedztwa.dll.a
+  TARGET_PDB = uGrafMacierzSasiedztwa.exe.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\asias\CLionProjects\Floyd_Warshall\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\asias\CLionProjects\uGrafMacierzSasiedztwa\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -130,7 +130,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\asias\CLionProjects\Floyd_Warshall\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\asias\CLionProjects\Floyd_Warshall -BC:\Users\asias\CLionProjects\Floyd_Warshall\cmake-build-debug"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\asias\CLionProjects\uGrafMacierzSasiedztwa\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\asias\CLionProjects\uGrafMacierzSasiedztwa -BC:\Users\asias\CLionProjects\uGrafMacierzSasiedztwa\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -140,7 +140,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build Floyd_Warshall: phony Floyd_Warshall.exe
+build uGrafMacierzSasiedztwa: phony uGrafMacierzSasiedztwa.exe
 
 # =============================================================================
 # Folder targets.
@@ -148,9 +148,9 @@ build Floyd_Warshall: phony Floyd_Warshall.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/asias/CLionProjects/Floyd_Warshall/cmake-build-debug
+# Folder: C:/Users/asias/CLionProjects/uGrafMacierzSasiedztwa/cmake-build-debug
 
-build all: phony Floyd_Warshall.exe
+build all: phony uGrafMacierzSasiedztwa.exe
 
 # =============================================================================
 # Built-in targets
@@ -159,14 +159,14 @@ build all: phony Floyd_Warshall.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake C$:/Users/asias/CLionProjects/Floyd_Warshall/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake C$:/Users/asias/CLionProjects/uGrafMacierzSasiedztwa/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake C$:/Users/asias/CLionProjects/Floyd_Warshall/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
+build C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake C$:/Users/asias/CLionProjects/uGrafMacierzSasiedztwa/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
 
 
 #############################################

@@ -12,14 +12,14 @@
 class Graf
 {
     //od razu musimy zadeklarowa� maksymaln� ilo�� wierzcho�k�w - tutaj 100;
-    int matrix[10][10];
+    int matrix[100][100];
     int numberOfVertices;
 
 public:
     Graf();
     void createVertices(int ile);
     void addEdge(int i_Vertex_Index_1, int i_Vertex_Index_2);
-    void addEdge(int i_Vertex_Index_1, int i_Vertex_Index_2, int weight);
+    void addEdge(int i_Vertex_Index_1, int i_Vertex_Index_2, int j);
     void removeEdge(int i_Vertex_Index_1, int i_Vertex_Index_2);
     bool checkEdge(int i_Vertex_Index_1, int i_Vertex_Index_2);
     int vertexDegree(int idx);
