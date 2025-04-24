@@ -135,14 +135,13 @@ void Graf::FloydWarshallMatrix() {
     const int INF = 1000000;
     int dist[10][10];
 
-    // --- 1) Inicjalizacja macierzy 'dist' z Twojej macierzy 'matrix' ---
     for (int i = 0; i < numberOfVertices; ++i) {
         for (int j = 0; j < numberOfVertices; ++j) {
             if (i == j) {
                 dist[i][j] = 0;
             }
             else if (matrix[i][j] == 0) {
-                // zero poza przekątną = brak krawędzi
+
                 dist[i][j] = INF;
             }
             else {
@@ -151,11 +150,10 @@ void Graf::FloydWarshallMatrix() {
         }
     }
 
-    // --- 2) Właściwy algorytm Floyd–Warshalla ---
     for (int k = 0; k < numberOfVertices; ++k) {
         for (int i = 0; i < numberOfVertices; ++i) {
             for (int j = 0; j < numberOfVertices; ++j) {
-                // jeśli istnieje ścieżka i–>k oraz k–>j
+  
                 if (dist[i][k] < INF && dist[k][j] < INF) {
                     int przezK = dist[i][k] + dist[k][j];
                     if (przezK < dist[i][j])
@@ -165,7 +163,6 @@ void Graf::FloydWarshallMatrix() {
         }
     }
 
-    // --- 3) Wyświetlanie wyniku ---
     for (int i = 0; i < numberOfVertices; ++i) {
         for (int j = 0; j < numberOfVertices; ++j) {
             if (dist[i][j] == INF)
