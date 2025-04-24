@@ -1,0 +1,7 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/Floyd_Warshall.dir/main.cpp.obj: dyndep
+
+build CMakeFiles/Floyd_Warshall.dir/Graf.cpp.obj: dyndep
+
+build CMakeFiles/Floyd_Warshall.dir/edge.cpp.obj: dyndep
+

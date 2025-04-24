@@ -1,0 +1,40 @@
+#ifndef GRAF_H
+#define GRAF_H
+#pragma once
+#include <iostream>
+#include <vector>
+#include <fstream>
+#include <string>
+#include <sstream>
+#include "edge.h"
+
+
+class Graf
+{
+    //od razu musimy zadeklarowa� maksymaln� ilo�� wierzcho�k�w - tutaj 100;
+    int matrix[10][10];
+    int numberOfVertices;
+
+public:
+    Graf();
+    void createVertices(int ile);
+    void addEdge(int i_Vertex_Index_1, int i_Vertex_Index_2);
+    void addEdge(int i_Vertex_Index_1, int i_Vertex_Index_2, int weight);
+    void removeEdge(int i_Vertex_Index_1, int i_Vertex_Index_2);
+    bool checkEdge(int i_Vertex_Index_1, int i_Vertex_Index_2);
+    int vertexDegree(int idx);
+    std::vector<int> getNeighbourIndices(int idx);
+    void printNeighbourIndices(int idx);
+    int getNumberOfEdges();
+    void readFromFile(std::string path);
+    void print();
+    void FloydWarshallMatrix();
+
+private:
+    void clear();
+};
+
+
+
+
+#endif //GRAF_H

@@ -1,0 +1,11 @@
+{
+"rules": [
+{
+"primary-output": "CMakeFiles/Floyd_Warshall.dir/edge.cpp.o",
+"requires": [
+]
+}
+],
+"version": 0,
+"revision": 0
+}
